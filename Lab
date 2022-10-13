@@ -1,0 +1,28 @@
+def mychoice():
+    print("Good idea!")
+def otherchoice():
+    print("Ew, I don't want to eat that!")
+def funnychoice():
+    print ("Are you sure, homie?")
+
+options = ["Pancakes", "Waffles", "Gummy bears", "Dirt pie"]
+
+inputStr = "What do you want for breakfast?\nchoices: " + str(options) + "\n"
+
+
+while(True):
+    answer = input(inputStr);
+    print("\n")
+
+    if (answer == options[0] or answer == options[1]):
+        mychoice()
+    elif (answer == options[3]):
+        funnychoice()
+    else:
+        otherchoice()
+
+    print("Do you want to move on to lunch menu?")
+    user = input("Do you want to move on to lunch menu?")
+    if (user == "No"):
+        break
+    

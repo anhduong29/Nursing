@@ -1,0 +1,13 @@
+def myfunction(a, b, c):
+   print("Menu of the day")
+   print(a)
+   print(b)
+   print(c)
+
+myfunction("Pancakes", "Sandwich", "Steak")
+myfunction("Waffles", "Pizza", "Lobster")
+
+if (True):
+    myfunction("Pancakes", "Sandwich", "Steak")
+ elif (False):
+   myfunction("Waffles", "Pizza", "Lobster")

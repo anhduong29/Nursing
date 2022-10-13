@@ -1,0 +1,56 @@
+def mychoice():
+    print("Good idea!")
+def otherchoice():
+    print("Ew, I don't want to eat that!")
+
+options = ["Pancakes", "Waffles", "Dirt pie"]
+
+inputStr = "What do you want for breakfast?\nchoices: " + str(options) + "\n"
+
+answer = input(inputStr);
+print("\n")
+
+if (answer == options [0] or answer == options [1]):
+    mychoice()
+elif (answer == options [2]):
+    otherchoice()
+
+
+
+options2 = ["Sandwich", "Pizza", "Organic Chem"]
+
+inputStr2 = "What do you want for lunch?\nchoices: " + str(options2) + "\n"
+
+answer = input(inputStr2)
+print("\n")
+
+if (answer == options2 [0] or answer == options2 [1]):
+    mychoice()
+elif (answer == options2 [2]):
+    otherchoice()
+    
+ if (menu1 == "pancakes"):
+        print ("pancakes are coming!")
+    else:
+        print("here is your waffles!")
+    
+ elif menu_1("Anything is fine"):
+     return ("Try to pick one!")
+ else:
+     return ("Waffles then!")
+
+ menu2 = input ("Do you want sandwich or pizza?")
+if (menu2 == "sandwich"):
+     return ("Let's go to Jimmy John!")
+elif menu_2("I want Chick fil'a!"):
+     return ("Let's go then!")
+else: 
+     return ("Lets's order pizza!")
+
+def menu_3("Dinner with steak or lobster?")
+if menu_3("steak"):
+     return ("Let's go grocery shopping!")
+elif menu_3("I don't want dinner!"):
+     return ("Ok then!")
+else:
+     return ("Let's go to Red Lobster!")
